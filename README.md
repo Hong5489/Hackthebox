@@ -3,6 +3,8 @@
 
 **les.sh and LinEnum.sh** : Use for detect vuln in Linux machine
 
+**Sherlock.ps1** : Use for detect vuln in Windows machine
+
 ### How to upload files to vuln linux machine
 In your machine type : 
 > python -m SimpleHTTPServer
