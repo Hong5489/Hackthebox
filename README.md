@@ -1,3 +1,3 @@
 # Hackthebox tools
-<p>shell.php : Use for reverse shell when uploaded to vuln machine</p>
-les.sh and LinEnum.sh : Use for detect vuln in Linux machine
+<p><b>shell.php</b> : Use for reverse shell when uploaded to vuln machine</p>
+<b>les.sh and LinEnum.sh</b> : Use for detect vuln in Linux machine
