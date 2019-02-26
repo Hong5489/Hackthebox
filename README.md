@@ -4,7 +4,7 @@
 # Listen for reverse shell
 nc -lnvp <port number> 
 ```
-**les.sh and LinEnum.sh** : Use for detect vuln in Linux machine
+**les.sh, LinEnum.sh, lse.sh (Recommended)** : Use for detect vuln in Linux machine
 
 **Sherlock.ps1** : Use for detect vuln in Windows machine
 
