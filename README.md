@@ -82,3 +82,5 @@ tar > tar cf /dev/null testfile --checkpoint=1 --checkpoint-action=exec=/bin/bas
 [Pentest Monkey (Reverse shell script) ](http://pentestmonkey.net/)
 
 [GTFObins (Privilege escalation & Escape Rbash)](https://gtfobins.github.io)
+
+[Guide to Privilege Escalation](https://payatu.com/guide-linux-privilege-escalation/)
